@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 '''includes floor function'''
-from math import floor
+from math import floor as f
 
 
 def floor(n: float) -> int:
     '''Returns floor of a float'''
 
-    return floor(n)
+    return f(n)
