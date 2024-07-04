@@ -5,6 +5,9 @@ from typing import Tuple, List, Union, Any
 
 
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
+    '''return list with only existing
+    numbers on range(factor)'''
+
     zoomed_in: List = [
         item for item in list(lst)
         for i in range(int(factor))
